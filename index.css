@@ -29,9 +29,13 @@ button {
   border: 2px solid white;
   border-radius: 10px;
   font-weight: 700;
-  margin-right: 50px;
   cursor: pointer;
   width: 200px;
+}
+
+button:first-child {
+  margin-right: 50px;
+
 }
 
 button:hover {
