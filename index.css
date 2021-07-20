@@ -31,6 +31,7 @@ button {
   font-weight: 700;
   cursor: pointer;
   width: 200px;
+  user-select: none;
 }
 
 button:first-child {
