@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+#message {
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 40px;
+  user-select: none;
+}
+
+#buttons-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 60%;
+  width: 100%;
+}
+
+button {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  color:white;
+  background-color: black;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-right: 50px;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+#easter:after  {
+  content: "друг?";
+}
+#easter:hover:before {
+  content: "пидор?"
+}
+#easter:hover:after {
+  content: ""
+}
